@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>c41e01c9-0c5b-40ca-bd41-45288795c872</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>50884499-88c0-405f-ac0d-f2932fb39d29</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>c0a21fcb-82a5-4b01-bb66-8ce7426655dc</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{61ddac3e-15d4-485b-80ef-d8d6116ba19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vhglib">
+      <UniqueIdentifier>{2595d5dd-908d-4b7d-98c0-29239db5ed06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="HyperbolicJoyceMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Content\Hvy3DScene.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\HvyCheckBoxQuasiRegular.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\HvySkipNumButtons.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\HvyWidgets.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\HvySchlafliButtons.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\Hvy2DHUD.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="vhglib\BitmapUtil.cpp">
+      <Filter>vhglib</Filter>
+    </ClCompile>
+    <ClCompile Include="vhglib\EdgeODesic.cpp">
+      <Filter>vhglib</Filter>
+    </ClCompile>
+    <ClCompile Include="vhglib\JLine.cpp">
+      <Filter>vhglib</Filter>
+    </ClCompile>
+    <ClCompile Include="vhglib\JPoincareDisk.cpp">
+      <Filter>vhglib</Filter>
+    </ClCompile>
+    <ClCompile Include="vhglib\JPolygon.cpp">
+      <Filter>vhglib</Filter>
+    </ClCompile>
+    <ClCompile Include="vhglib\VhgSystem.cpp">
+      <Filter>vhglib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="HyperbolicJoyceMain.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Content\Hvy3DScene.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\HvyCheckBoxQuasiRegular.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\HvySkipNumButtons.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\HvySchlafliButtons.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\HvyWidgets.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Hvy2DHUD.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="vhglib\BitmapUtil.h">
+      <Filter>vhglib</Filter>
+    </ClInclude>
+    <ClInclude Include="vhglib\DefTypes.h">
+      <Filter>vhglib</Filter>
+    </ClInclude>
+    <ClInclude Include="vhglib\EdgeODesic.h">
+      <Filter>vhglib</Filter>
+    </ClInclude>
+    <ClInclude Include="vhglib\JLine.h">
+      <Filter>vhglib</Filter>
+    </ClInclude>
+    <ClInclude Include="vhglib\JPoincareDisk.h">
+      <Filter>vhglib</Filter>
+    </ClInclude>
+    <ClInclude Include="vhglib\JPolygon.h">
+      <Filter>vhglib</Filter>
+    </ClInclude>
+    <ClInclude Include="vhglib\VhgSystem.h">
+      <Filter>vhglib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Pacioli.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HyperbolicJoyce_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\generic_vs.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\generic_ps.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
