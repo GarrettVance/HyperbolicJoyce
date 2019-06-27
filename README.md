@@ -1,3 +1,3 @@
 # HyperbolicJoyce
-Port of Dr. David Joyce's hyperbolic tessellations from java to C++ DirectX.
+Port of Dr. David Joyce's hyperbolic tessellations app from java to C++ and DirectX D3D11.
 
